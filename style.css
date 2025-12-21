@@ -1,0 +1,79 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px 30px;
+  width: 100%;
+  max-width: 540px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="number"] {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 6px;
+  width: 70px;
+}
+
+button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.matrix-row {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0;
+}
+
+.matrix-element {
+  width: 55px;
+  height: 35px;
+  margin: 3px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  line-height: 35px;
+}
+
+.matrix-result {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f4f6ff;
+  border-radius: 8px;
+}
+
+#results h3 {
+  margin: 10px 0 5px;
+}
