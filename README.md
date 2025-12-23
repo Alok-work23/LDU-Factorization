@@ -38,7 +38,7 @@ JavaScript – Matrix operations and logic
 📂 Project Structure
 LDU-Factorization-Calculator/
 │
-├── index.html      # Main HTML file
+├── LDUhome.html      # Main HTML file
 ├── style.css       # Styling and layout
 └── script.js       # LDU logic & verification
 
